@@ -1,0 +1,35 @@
+name: sign2speech
+description: "A Sign language translator text and speech"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+
+  # Local storage & ratings
+  shared_preferences: ^2.0.15
+  flutter_rating_bar: ^4.0.1
+
+  # HTTP & Image Handling
+  http: ^0.13.6
+  image_picker: ^1.0.7
+  flutter_tts: ^3.8.5
+
+  # Camera support
+  camera: ^0.10.5+9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
